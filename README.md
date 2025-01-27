@@ -81,7 +81,7 @@ python train.py
 
 
 
-### BCEWithLogitsLoss Equation
+## BCEWithLogitsLoss Equation
 The equation for Binary Cross Entropy with logits loss:
 
 ![image](https://github.com/user-attachments/assets/46145299-413e-4460-83eb-365b1a046d32)
