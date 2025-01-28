@@ -50,6 +50,13 @@ Run the following command in the virtual environment:
 python train.py
 ```
 
+
+&nbsp;
+
+&nbsp;
+
+
+
 ## Modifications to Loss Function
 
 ### File Path: `ultralytics\ultralytics\utils\loss.py`
@@ -67,16 +74,31 @@ python train.py
 
 **Note:** The number of weights should match the number of classes.
 
-### BCEWithLogitsLoss Equation
-The equation for Binary Cross Entropy with logits loss:
-![image](https://github.com/user-attachments/assets/46145299-413e-4460-83eb-365b1a046d32)
 
+&nbsp;
+
+&nbsp;
+
+
+
+## BCEWithLogitsLoss Equation
+The equation for Binary Cross Entropy with logits loss:
+
+![image](https://github.com/user-attachments/assets/46145299-413e-4460-83eb-365b1a046d32)
 
 ## How to Calculate Weights
 Use the formula:
+
 ![image](https://github.com/user-attachments/assets/b015e9af-c6ba-43ef-9032-a0c2ecba1740)
 
 The implementation of this calculation is included in `calculate_weight.py`.
+
+
+
+&nbsp;
+
+&nbsp;
+
 
 
 ## Change Bounding Box Colors in Predictions
